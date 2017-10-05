@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "none",
+    "jsx": "react",
+    "lib": [ "es2015", "dom" ]
+  },
+  "include": [
+    "Scripts/@types/**/*",
+    "app/**/*"
+  ],
+  "compileOnSave": true
+}
